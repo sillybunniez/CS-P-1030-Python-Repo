@@ -1,0 +1,18 @@
+"""
+debugkey = input("Enter which test you want: ")
+if debugkey == True:
+    card = True
+else:
+    card = False
+"""
+card = True
+# Change Variable to True or False for your selected test
+pin = int(input(("Please input your pin: ")))
+#Algorithm
+if card == True:
+    if pin == 1234:
+        print("Access Granted")
+    else:
+        print("Access Denied: Incorrect Pin")
+if card == False:
+    print("Invaild Access Card")

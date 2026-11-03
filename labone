@@ -1,0 +1,7 @@
+price = float(input("Please enter your price "))
+
+if price >= 50:
+    print("You qualify for free shipping! ")
+else:
+    print("Shipping free required. ")
+# -# prints this too
