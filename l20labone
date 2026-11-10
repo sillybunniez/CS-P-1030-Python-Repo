@@ -1,0 +1,5 @@
+userInput = input("Enter the word: 'quit' ")
+while userInput != "quit":
+    userInput = input("Enter the word: 'quit' ")
+    print(userInput)
+print("Ending")

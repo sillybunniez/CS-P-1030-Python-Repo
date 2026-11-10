@@ -1,0 +1,5 @@
+num = int(input("Enter a number: "))
+while num >= 10:
+    print("num is less then 10!")
+    num = int(input("Enter a number: "))
+print("num is bigger then 10")
